@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#1c1b19"/>
+  <text x="32" y="27" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16" font-weight="800" fill="#a78bfa" text-anchor="middle">px</text>
+  <path d="M20 34 h24 M36 30 l6 4 -6 4" stroke="#2dd4bf" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="52" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="15" font-weight="800" fill="#a78bfa" text-anchor="middle">rem</text>
+</svg>

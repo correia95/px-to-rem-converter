@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#7c3aed" />
+
+    <title>PX to REM Converter — px, rem, em, pt and % for CSS</title>
+    <meta
+      name="description"
+      content="Convert px to rem, rem to px, and between em, pt and % for CSS. Set the base font size, enter a value in any unit, get the rest, with a px-to-rem reference table. Free, runs in your browser."
+    />
+    <link rel="canonical" href="https://px-to-rem-converter.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PX to REM Converter" />
+    <meta property="og:description" content="Convert between px, rem, em, pt and % for CSS against a base font size. Reference table included. Client-side, no sign-up." />
+    <meta property="og:url" content="https://px-to-rem-converter.correia95.workers.dev/" />
+    <meta property="og:image" content="https://px-to-rem-converter.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PX to REM Converter" />
+    <meta name="twitter:description" content="Convert between px, rem, em, pt and % for CSS against a base font size. Reference table included. Client-side, no sign-up." />
+    <meta name="twitter:image" content="https://px-to-rem-converter.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "PX to REM Converter",
+        "url": "https://px-to-rem-converter.correia95.workers.dev/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Convert CSS lengths between px, rem, em, pt and percent against a configurable base font size, with a px-to-rem reference table, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I convert px to rem?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Divide the pixel value by the root font size. With the default 16px base, 24px is 24 / 16 = 1.5rem and 10px is 0.625rem. This tool does it for any base you set."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between rem and em?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "rem is always relative to the root (html) font size, so 1rem is a fixed pixel value across the page. em is relative to the font size of the current element's parent, so the same em value can resolve to different pixel amounts depending on where it is used."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many pixels is 1pt?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In CSS, 1pt equals 1/72 of an inch and 1px equals 1/96 of an inch, so 1pt is 96/72 = 1.333px and 12pt is 16px."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my data sent anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The conversion runs in your browser and the values are stored only in the page link. It works offline once loaded."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This px to rem converter needs JavaScript. It converts between px, rem, em, pt and % for CSS.
+      </p>
+    </noscript>
+  </body>
+</html>

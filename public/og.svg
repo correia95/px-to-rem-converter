@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f0e11"/>
+  <text x="80" y="170" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="82" font-weight="800" fill="#eae8f0" letter-spacing="-1">PX to REM Converter</text>
+  <text x="80" y="224" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#9a95a6">px · rem · em · pt · % for CSS, against a base font size</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-weight="800">
+    <text x="80" y="356" font-size="58" fill="#a78bfa">24px = 1.5rem</text>
+    <text x="560" y="356" font-size="30" fill="#9a95a6">16px base · 18pt · 150%</text>
+  </g>
+  <text x="80" y="466" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#eae8f0">Size in rem so a reader's font-size preference scales your layout</text>
+  <text x="80" y="510" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#9a95a6">px-to-rem reference table · free · runs in your browser</text>
+</svg>

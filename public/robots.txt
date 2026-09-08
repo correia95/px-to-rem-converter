@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://px-to-rem-converter.correia95.workers.dev/sitemap.xml
